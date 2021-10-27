@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Here</title>
+</head>
+
+<body>
+    <h1>Order Here</h1>
+
+    <h3>What would you like?</h3>
+    <form action="/checkout">
+        <label for="Taco">Taco</label>
+        <input type="radio" name="type" id="Taco" value="taco">
+        <label for="Burrito">Burrito</label>
+        <input type="radio" name="type" id="Burrito" value="burrito">
+        <label for="Quesadilla">Quesadilla</label>
+        <input type="radio" name="type" id="Quesadilla" value="quesadilla">
+        <button>Submit</button>
+    </form>
+
+
+
+    <form action="/signup">
+        <label for="Username">Username</label>
+        <input type="text" name="Username" id="Username" placeholder="username">
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="password">
+        <button>Register</button>
+    </form>
+</body>
+
+</html>
